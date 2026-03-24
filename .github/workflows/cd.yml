@@ -26,7 +26,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: ${{ secrets.DOCKER_USER }}/rcc-londrina-front
+        repository: ${{ secrets.DOCKER_USER }}/auxiliadora-front
         tags: ${{ github.sha }}, latest
 
   deploy:
